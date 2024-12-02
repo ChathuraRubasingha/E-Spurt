@@ -4,7 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProtectedRoute from "./components/ProtectedRoute";
-import CartPage from "./components/Cart/CartPage";
+import CartPage from "./pages/CartPage";
 
 const App = () => (
   <AuthProvider>
