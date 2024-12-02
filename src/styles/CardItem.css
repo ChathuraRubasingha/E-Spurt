@@ -55,19 +55,21 @@
 }
 .add-cart {
   font-weight: 700;
-  color: #000000;
   padding: 10px 10px;
   font-size: 12px;
   border: 2px solid #ff7f00;
-  width: 6vw;
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
   transition: 200ms;
+  color: #000000;
+  margin: 0;
+  background-color: white;
 }
 .added {
-  background-color: #ff7f00;
   color: #ffffff;
+  background-color: #ff7f00;
+
 }
 .add-cart:hover {
   background-color: #ff7f00;
@@ -76,7 +78,7 @@
 .heart-wrapper {
   position: absolute;
   top: 10px;
-  right: 50px;
+  right: 1vw;
   cursor: pointer;
   padding: 7px 10px;
   background-color: white;
@@ -84,4 +86,59 @@
 }
 .heart {
   width: 15px;
+}
+@media screen and (max-width: 1024px) {
+  .card-container {
+    width: 250px;
+  }
+  .card-img-section {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .card-img-section img {
+    width: 150px;
+    transition: 150ms;
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 250px;
+  }
+  .card-img-section {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .card-img-section img {
+    width: 150px;
+    transition: 150ms;
+  }
+
+}
+@media screen and (max-width: 425px) {
+  .card-container {
+    width: 150px;
+  }
+  .card-img-section {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .card-img-section img {
+    width: 100px;
+    transition: 100ms;
+  }
+  .add-cart {
+    font-size: 8px;
+  }
+  .card-title p {
+    font-size: 14px;
+  }
+  .card-description {
+    font-size: 12px;
+  }
+
 }

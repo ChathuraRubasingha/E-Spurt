@@ -32,13 +32,13 @@ function CardItem({ image, title, price, description }) {
           <div className="card-rating">
             <img src={Star} alt="star" />
           </div>
-          <div
+          <button
             className={`add-cart ${addedToCart ? "added" : ""}`}
             onClick={handleAddToCart}
             disabled={addedToCart}
           >
             {addedToCart ? "Added to Cart" : "Add to Cart"}
-          </div>
+          </button>
         </div>
       </div>
     </div>

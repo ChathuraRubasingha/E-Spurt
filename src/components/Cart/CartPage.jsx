@@ -36,7 +36,7 @@ function CartPage() {
         <NavBar onSearch={handleSearch} />
         <div className="cart-container">
           <div className="left-cart-container">
-            <h1>Your Shopping Cart</h1>
+            <h1 className="shopping-cart">Your Shopping Cart</h1>
             <div className="cart-item-list">
               {cart.length === 0 ? (
                 <p

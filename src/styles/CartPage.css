@@ -85,3 +85,33 @@
   align-items: center;
   border-radius: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .cart-wrapper {
+    margin: 0 20px;
+  }
+  .shopping-cart {
+    font-size: 1.5rem;
+  }
+  .right-cart-container h1 {
+    font-size: 1.5rem;
+  }
+  .summary-row h2{
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .right-cart-container {
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .cart-container {
+    grid-template-columns: 2fr;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cart-item {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

@@ -33,7 +33,7 @@ function HomePage() {
             <div className="hero-button">Buy Now</div>
           </div>
         </div>
-        <h1 style={{ padding: "20px 0" }}>Latest Items For You!</h1>
+        <h1 className="latest-items" style={{ padding: "20px 0" }}>Latest Items For You!</h1>
         <div className="home-products">
           {filteredProducts.map((item, index) => (
             <CardItem
