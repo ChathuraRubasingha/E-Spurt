@@ -5,16 +5,16 @@ This is a responsive e-commerce web application built with React, featuring prod
 
 ### Installation
 
-Clone the repository:
+1. Clone the repository:
 
-### `git clone https://github.com/ChathuraRubasingha/E-Spurt`
-### `cd myecommerce`
+ ### `git clone https://github.com/ChathuraRubasingha/E-Spurt`
+ ### `cd myecommerce`
 
-Install dependencies:
+2. Install dependencies:
 
-### `npm install`
+ ### `npm install`
 
-# Running the Application
+## Running the Application
 
 To run the application locally, use the following command:
 
