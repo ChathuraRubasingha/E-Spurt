@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../styles/Notification.css";
-import correct from "../assets/Icons/g-correct.png";
 import { TickCircle } from "iconsax-react";
 
 const Notification = ({ message, onClose }) => {

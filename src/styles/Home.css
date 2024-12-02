@@ -49,6 +49,9 @@
   font-size: 16px;
   cursor: pointer;
 }
+.nav-items p:hover{
+  color: #ff7f00;
+}
 .search-bar {
   position: relative;
   display: flex;
