@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../assets/Images/logo.png";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import { SearchNormal1, ShoppingCart, User, Menu } from "iconsax-react";
+import { SearchNormal1, ShoppingCart, User, HambergerMenu } from "iconsax-react";
 
 function NavBar({ onSearch }) {
   const navigate = useNavigate();
@@ -50,7 +50,7 @@ function NavBar({ onSearch }) {
           Cart<span>{cart?.length || 0}</span>
         </div>
         <div className="hamburger-menu" onClick={toggleMobileMenu}>
-          <Menu size="24" color="#000000" />
+          <HambergerMenu size="20" color="#000000" />
         </div>
       </div>
 
