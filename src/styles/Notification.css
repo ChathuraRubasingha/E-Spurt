@@ -14,7 +14,7 @@
 
 .notification-popup {
   display: flex;
-  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
@@ -24,7 +24,6 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   font-size: 20px;
   animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
-  width: 30vw;
 }
 .n-icon{
   display: flex;
