@@ -3,20 +3,20 @@
 This is a responsive e-commerce web application built with React, featuring product listings, a shopping cart, and user authentication. It utilizes Context API for state management and local storage for data persistence.
 [Visit site](https://github.com/facebook/create-react-app).
 
-# Installation
+### Installation
 
-## 1.Clone the repository:
+Clone the repository:
 
 ### `git clone https://github.com/ChathuraRubasingha/E-Spurt`
 ### `cd myecommerce`
 
-## 2.Install dependencies:
+Install dependencies:
 
 ### `npm install`
 
 # Running the Application
 
-## To run the application locally, use the following command:
+To run the application locally, use the following command:
 
 ### `npm start`
 
