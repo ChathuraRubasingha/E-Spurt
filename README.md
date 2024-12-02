@@ -1,7 +1,7 @@
 # E-Commerce Website
 
 This is a responsive e-commerce web application built with React, featuring product listings, a shopping cart, and user authentication. It utilizes Context API for state management and local storage for data persistence.
-[Visit site](https://github.com/facebook/create-react-app).
+[Visit site](https://profound-longma-ed5230.netlify.app/).
 
 ### Installation
 
